@@ -1,8 +1,5 @@
 # Customer Churn Prediction and Segmentation
 
-[![Kaggle Notebook](https://img.shields.io/badge/Kaggle-Notebook-20BEFF?logo=kaggle&style=for-the-badge)](https://www.kaggle.com/code/yosefmohtady/customer-churn-prediction-and-segmentation)
-
-[![Follow me on Kaggle](https://img.shields.io/badge/Follow-Kaggle-FF5A5F?logo=kaggle&style=for-the-badge)](https://www.kaggle.com/yosefmohtady)
 
 ## Overview
 
@@ -115,7 +112,4 @@ Recommendation:
 - The notebook writes out `Data/customer_data_with_clusters.csv` and saves model artifacts to `Model_Artifacts/`. If you want an identical dashboard experience, ensure these outputs are present or re-run the notebook to regenerate them.
 - The dashboard ([app.py](app.py)) reads `Data/customer_data_with_clusters.csv` via [`app.load_data`](app.py).
 
-## License & Credits
-
-- Dataset: Telco Customer Churn dataset (Kaggle).
-- This project is developed by [Yousef Mohtady](https://github.com/yousefmohtady1).
+This project is based on an open-source implementation and adapted for learning, experimentation, and portfolio purposes.
